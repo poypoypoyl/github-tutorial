@@ -1,0 +1,474 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root{
+    --brand-color:#212121;
+    --brand-text:'Roboto';
+    --back-color: #2196F3;
+
+
+}
+body{
+    font-family:var(--brand-text);
+}
+h1,h2,h3,h4,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+ul,ol {
+    margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+ }
+ img{display: block;}
+ address{font-style: normal;}
+ul {
+    list-style-type: none;
+}
+.link{
+     text-decoration: none 
+}
+.link:hover,
+.link:focus
+.list{color:var(--back-color);}
+ 
+.nav-list.link {
+    text-transform: uppercase;}
+.titel{
+    
+}
+.conteiner{
+    width: 1600px;
+    
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0 15px;
+   
+}
+                                   /* HEDER */   
+.header{
+    
+}
+.conteiner-header{
+    
+}
+.navigator{display: flex;
+align-items: center;
+
+Height: 80px;
+
+}
+.logo{margin-right:93px ;
+    margin-left: 215px;
+    
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+
+    color:var(--back-color);}
+
+.Logo-color{ color:var(--brand-color);}
+.nav-list{display: flex;
+
+}
+.nav-list-item:not(:last-child){
+  
+        margin-right: 50px;}
+
+   
+
+.nav-list-link{font-family: var(--brand-text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    letter-spacing: 0.02em;
+
+    color: var(--brand-color);
+        
+}
+
+.contact-mail {
+   margin-left: auto;
+
+
+
+    font-family:var(--brand-text);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+
+    color: #757575; }
+
+
+.contact-number { 
+    margin-left: 50px;
+    margin-right: 215px;
+
+
+
+
+
+     font-family: var(--brand-text);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5px;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
+/* HEDER END */
+ /* HERO */
+ .hero{}
+ .conteiner-hero{
+    Height:600px;
+    background: #2F303A;
+
+
+ }
+ .hero-titel {
+    padding-top: 200px;
+
+
+
+    font-family: var(--brand-text);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        /* line-height: 1.36px; */
+        /* or 136% */
+    line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #12F5F1;
+
+     
+ }
+.BTN{
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    
+
+position: absolute;
+border: 0px solid var(--back-color);
+    background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-family: var(--brand-text);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 30px;
+            
+        
+           
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+        
+            color: #FFFFFF;
+}
+/* HERO END */
+/* Features */
+
+.features
+.conteiner-features{display: flex;
+height: 429px;
+
+}
+.features-list{
+    display: flex;
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
+
+    
+
+
+}
+.features-list-item:not(:last-child){
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin-right: 30px;
+
+}
+.features-titel{
+    margin-bottom: 10px;
+
+    font-family: var(--brand-text);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.4;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+.features-text{
+    
+    
+    font-family:var(--brand-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: #757575;}
+/* Feature END */
+/* JOB */
+.conteiner-job{
+    height: 438px;
+    
+
+}
+.job-titel{
+    margin-bottom: 50PX;
+    
+
+
+
+    
+    font-family:var(--brand-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;}
+.job-list{display: flex;
+    margin-left: 215px;
+    margin-bottom: 94px;
+
+}
+.job-list-item:not(:last-child){
+    margin-right: 30px;
+}
+/* JOB END */
+/* TEAM */
+.team
+.conteiner-team {
+    height: 648;
+    
+background: #F5F4FA;}
+.team-titel{
+padding-top: 94px; 
+margin-bottom: 50px;
+    
+    font-family:var(--brand-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;}
+.team-list
+{display: flex;
+    margin-bottom: 94px;
+    margin-left: 215px;
+    margin-right: 215PX;
+
+    
+justify-content:center;
+}
+.team-list-item:not(:last-child){margin-right: 30px;
+}
+.team-name{margin-top: 30px;
+    margin-bottom: 10px;
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;}
+    .team-text{margin-bottom: 124px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #757575;}
+
+/* TEAM END */
+/* client */
+.client
+.conteiner-client{
+
+height: 624px;}
+.client-title{padding-top: 94px;
+    margin-bottom: 50px;
+
+    font-family: var(--brand-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;}
+.client-list{display: flex;
+justify-content: center;
+;}
+.client-list-item:not(:last-child){margin-right: 30px;
+}
+/* client END */
+/* footer  */
+.footer{display: flex;
+height: 252px;
+justify-content:space-between;
+background: #2F303A;
+} 
+.addres-lisr-item{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);}
+.Logo-footer-color{
+   color:  #FFFFFF;
+}
+.addres-lisr-item-street{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;}
+.addres-list{
+margin-top: 20px;
+}
+.conteiner-footer-left{
+    margin-left: 215px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-right: 156px;
+
+}
+.conteiner-footer-center {
+    margin-top: 72px;
+}
+.logo-footer{margin-bottom: 20px;
+    margin-top: 60px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2px;
+    letter-spacing: 0.03em;
+
+    color: var(--back-color);}
+/* footer END */
+
+          /* PORFOLIO */
+                  .nav-porfolio{}
+                  .conteiner-porfolio{}
+                  .porfolio-list{display: flex;
+                justify-content: center;
+            }
+                  .porfolio-list-item{}
+
+
+
+
+                  /* НАстройка IMG  */
+                  .hero-background{background-image:linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url("../images/Hero.jpg");
+                } 
+
+
+                .team-list-item{
+                    border:1px solid rgba(0, 0, 0, 0.2) ;
+                    border-radius: 1px;
+                    background-color: #FFFFFF;
+                    margin-bottom: 94px;
+                    box-shadow:0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+                }
+
+
+                 .contact-mail::before {
+                    
+                    
+                    content: '';
+                    display: inline-block;
+                    Width:16px; Height: 12px;
+                    margin-right: 10px;
+                    background-image: url("../images/mail.svg");
+                    background-color:#FFFFFF;
+                    
+                    background-size: contain;
+
+                }
+                                .contact-mail::before:hover,.contact-mail::before:focus{color: #2196F3;}
+                 .contact-number::before{
+                    display: inline-block;
+                    content: '';
+                    
+                        Width: 10px;
+                        Height: 16px;
+                        margin-right: 10px;
+                        background-image: url("../images/mobile.png");
+                        background-color:#FFFFFF;
+                    
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                } 
+                                .features-list-item::before{
+                                    display: block;
+                                    content: '';
+                                    height: 120px;
+                                    background-size: 70px;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-color: #F5F4FA;
+                                    margin-bottom: 30px;
+
+                                }
+                                .icon-anten::before{background-image: url(/images/antenna\ 1.svg);
+                                
+                            }
+                                .icon-time::before{background-image: url(/images/clock\ 1.svg);}
+                                .icon-computer::before{background-image: url(/images/diagram\ 1.svg);}
+                                .icon-nlo::before{background-image: url(/images/astronaut\ 1.svg);
+                               
+                                    }

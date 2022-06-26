@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;}
+.container{
+
+    width: 215px;
+    margin: 0 auto;
+    padding: 0 15px;
+    }
+    .link {
+        background-color: tomato;
+        color: white;
+        /* ✅ Работает */
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 50px;
+        margin-left: 50px;
+        /* ❌ Никакого эффекта */
+        width: 1000px;
+        height: 1000px;
+        margin-top: 100px;
+        margin-bottom: 100px;}
+        
+ .box-feature{
+        display: flex;
+        align-items: center;
+        justify-content: space-between ;
+
+        background-color: tomato;
+        color: white;
+      }
+ /* .list{display: flex; */
+            align-items: center;
+            justify-content: space-between ;
+    
+            background-color: tomato;
+            color: white;}
+            
+        .list{display:;
+            align-items: center;
+            justify-content: space-between
+            background-color: tomato;
+            color: white;
+            /* ✅ Работает */
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 50px;
+            margin-left: 50px;}
